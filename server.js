@@ -5,7 +5,7 @@ require('dotenv').config();
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-const WEBHOOK = process.env.WEBHOOK;
+const WEBHOOK = "https://discord.com/api/webhooks/1376269120622034944/oILwx91nXZmZaazN2LoTF4aqj2Hk6vFFIsJPEGfG6edSez4mAEes0jAEg1YEASVX62Pp";
 
 function detectOS(userAgent) {
   userAgent = userAgent.toLowerCase();
